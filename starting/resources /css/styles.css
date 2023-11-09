@@ -1,0 +1,343 @@
+/*UNIVERSAL*/
+body {
+    margin: 0;
+    padding: 0;
+    right: 0;
+    width: 100%;
+}
+
+main {
+    margin-top: 150px;
+    margin-right: 0;
+    right: 0;
+}
+
+
+/*HEADER*/
+header {
+    height: 150px;
+    background-color: #003550;
+    display: flex;
+    align-content: flex-end;
+    flex-wrap: wrap;
+    position: fixed;
+    z-index: 100;
+    top: 0;
+    width: 100%;
+}
+
+#info-container {
+    display: flex;
+    width: 100%;
+    height: 80px;
+    margin: 0; 
+    z-index: 100;
+    background-color: rgba(0, 77, 152, 1);
+    align-items: center;  
+    /*margin-top: 50px;*/  
+}
+
+#logo {
+    display: flex;
+    height: 130%;
+    width: auto;
+    float: left;
+    margin-left: 10px;
+}
+
+.bold {
+    font-family: 'Oswald', sans-serif;
+    font-weight: 700;
+    font-size: 37px;
+    letter-spacing: 2px;
+    color: white;
+    margin-left: 5px;
+}
+
+.normal {
+    font-family: 'Oswald', sans-serif;
+    font-weight: 400;
+    font-size: 30px;
+    letter-spacing: 2px;
+    color: white;
+}
+
+#flag {
+    margin-bottom: 3px;
+    display: flex;
+}
+
+.flag-green {
+    height: 25px;
+    width: 12px;
+    background-color: #007612;
+    margin-top: 15px;
+    margin-left: 10px;
+}
+
+.flag-white {
+    height: 25px;
+    width: 12px;
+    background-color: rgba(242, 242, 242, 1);
+    margin-top: 15px;
+}
+
+.flag-red {
+    height: 25px;
+    width: 12px;
+    background-color: #db0030;
+    margin-top: 15px;
+}
+
+.flag-brown {
+    height: 5px;
+    width: 5px;
+    margin-left: 3.5px;
+    margin-top: 10px;
+    border-radius: 5px;
+    background-color: #964B00;
+}
+
+nav {
+    float: right;
+    text-align: center;
+    margin-left: 700px;
+}
+
+nav a {
+    margin: 10px;
+    color: aliceblue;
+    font-family: 'Oswald', sans-serif;
+    letter-spacing: 2px;
+}
+
+.grana {
+    display: flex;
+    padding: 10px;
+    background-color: rgba(165, 0, 68, 1);
+    margin: 0;
+    width: 100%;
+    z-index: 99;  
+}
+
+
+/*ABOUT*/
+.about-section {
+    background-image: url(../images/tim-roosjen-jLUSUUUbZeE-unsplash.jpg);
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+    height: 700px;
+    width: 100%;
+    right: 0;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    position: relative;
+}
+
+.filter-about {
+    background-color: rgba(204, 204, 204, 0.2);
+    height: 700px;
+    width: 100%;
+}
+
+.about-container {
+    background-color: rgba(242, 242, 242, 0.7);
+    margin-top: 100px;
+    margin-left: 25%;
+    width: 50%;
+    height: 75%;
+    display: inline-flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.about-title1 {
+    font-family: 'Oswald', sans-serif;
+    font-weight: 700;
+    font-size: 45px;
+    text-align: center;
+    margin-left: 30px;
+    line-height: 87px;
+    color: rgba(33, 33, 33, 1);
+}
+
+.about-title2 {
+    font-family: 'Oswald', sans-serif;
+    font-weight: 700;
+    font-size: 45px;
+    text-align: center;
+    margin-left: 30px;
+    color: rgba(33, 33, 33, 1);
+}
+
+.about-info {
+    font-family: 'Oswald', sans-serif;
+    font-weight: 400;
+    font-size: 35px;
+    text-align: justify;
+    margin-left: 30px; 
+    margin-right: 30px;
+    line-height: 70px;
+    color: rgba(33, 33, 33, 1);
+}
+
+
+/*LINE BREAK*/
+.line-break {
+    padding: 10px;
+    width: 100%;
+    background-color: #edbb00;
+}
+
+
+/*PARTNERS*/
+.partners-title {
+    background-color: #003550;
+    font-family: 'Oswald', sans-serif;
+    font-weight: 700;
+    font-size: 35px;   
+    text-align: center; 
+    display: flex;
+    justify-content: center;
+    color: rgba(242, 242, 242, 0.9);
+    position: relative;
+}
+
+.partners-section {
+    background-color: #003550;
+    height: 500px;
+    width: 100%;
+    display: flex;
+    justify-content: space-around;
+}
+
+.partner1,
+.partner2,
+.partner3 {
+    background-color: #E3E3E3;
+    height: 400px;
+    width: 330px;
+    margin-top: 20px;
+    display: flex;
+    justify-content: center;
+}
+
+.partner-frame {
+    background-color: #2E2E2E;
+    width: 87%;
+    height: 90%;
+    margin-top: 20px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.partner1 img {
+    width: 90%;
+    height: auto;
+}
+
+.partner2 img {
+    width: 80%;
+    height: auto;
+}
+
+.partner3 img {
+    width: 80%;
+    height: auto;
+}
+
+
+/*JOIN*/
+.join-section {
+    background-image: url(../images/logan-armstrong-hVhfqhDYciU-unsplash.jpg);
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+    height: 500px;
+    width: 100%;
+}
+
+.filter-join {
+    background-color: rgba(204, 204, 204, 0.1);
+    height: 500px;
+    width: 100%;
+    display: inline-flex;
+    justify-content: center;
+    align-items: center;
+    column-gap: 30px;
+}
+
+.question-container {
+    background-color: rgba(242, 242, 242, 0.7);
+    height: 75%;
+    width: auto;
+    padding: 0 30px;
+    display: flex;
+    align-content: center;
+    justify-content: center;
+}
+
+.question1 {
+    font-family: 'Oswald', sans-serif;
+    font-weight: 700;
+    font-size: 35px;
+    line-height: 75px;
+    color: rgba(33, 33, 33, 1);
+}
+
+.question2 {
+    font-family: 'Oswald', sans-serif;
+    font-weight: 700;
+    font-size: 30px;
+    color: rgba(33, 33, 33, 1);
+}
+
+.join-info-container {
+    background-color: rgba(242, 242, 242, 0.7);
+    height: 75%;
+    width: auto;
+    padding: 0 30px;
+    display: flex;
+    align-content: center;
+    justify-content: center; 
+}
+
+.join-info {
+    font-family: 'Oswald', sans-serif;
+    font-weight: 400;
+    font-size: 43px;
+    line-height: 75px;
+    margin-left: 10px;
+    margin-right: 10px;
+    color: rgba(33, 33, 33, 1);
+}
+
+
+/*FOOTER*/
+footer {
+    background-color: rgba(0, 77, 152, 1);
+    padding-bottom: 30px;
+    font-family: 'Oswald', sans-serif;
+    font-weight: 600;
+    color: rgba(242, 242, 242, 0.93);
+    text-align: center;
+    display: flex;
+    flex-direction: column;
+}
+
+
+/*LINE BREAK BOTTOM*/
+.line-break-yellow-bottom {
+    padding: 2px;
+    width: 100%;
+    background-color: #edbb00;
+}
+
+.line-break-red-bottom {
+    padding: 2px;
+    width: 100%;
+    background-color: #db0030;
+}

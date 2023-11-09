@@ -1,0 +1,24 @@
+
+/*PARTNERS*/
+.partner1 img:hover {
+    cursor: pointer;
+    width: 100%;
+}
+
+.partner2 img:hover {
+    cursor: pointer;
+    width: 97%;
+}
+
+.partner3 img:hover {
+    cursor: pointer;
+    width: 97%;
+}
+
+/*FOOTER*/
+footer h1:hover {
+    cursor: pointer;
+    color: #edbb00;
+    text-decoration: underline;
+    font-size: 34px;
+}
